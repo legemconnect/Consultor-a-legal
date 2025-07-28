@@ -85,7 +85,7 @@
                 jurisdiction: document.getElementById('jurisdiction').value,
                 timestamp: new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' })
             };
-            emailjs.send('LegemConnect', 'template_6b0j14q', formData)
+            emailjs.send('LegemConnect', 'template_m5tlbo5', formData)
                 .then(function(response) {
                     console.log('Correo enviado exitosamente', response);
                 }, function(error) {
